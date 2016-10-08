@@ -4,8 +4,8 @@ subtitle: Activity Based Costing
 layout: default
 modal-id: 3
 date: 2014-07-16
-img: sg.png
-thumbnail: sg-thumbnail.png
+img: sg.jpg
+thumbnail: sg-thumbnail.jpg
 alt: image-alt
 project-date: April 2014
 client: Start Bootstrap
