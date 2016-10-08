@@ -1,16 +1,16 @@
 ---
 title: Heathrow Airport
-subtitle: Airport Intelligence DW
+subtitle: Airport Intelligence
 layout: default
 modal-id: 1
-date: 2014-07-18
+date: 2016-10-08
 img: heathrow.png
 thumbnail: heathrow-thumbnail.png
 alt: image-alt
-project-date: April 2014
+project-date: 2006 to date
 client: Heathrow Airport
 category: Airport Intelligence
-description: Rockport has been central in the design, development and implementation of the Heathrow Airport Data Repository (ADR), compliant with the Heathrow Common Information Model (CIM) and the Heathrow Integrated Baggage message services. Rockport had previously designed, developed and deployed the South East Baggage MIS (SE MIS), a standard integrated model for Baggage information. Rockport has substantial depth of knowledge and experience of the Heathrow Common Information Model (CIM), having worked closely with Heathrow IT personnel on a number of Information Management initiatives, including Baggage and Airport Operations. Rockport has substantial depth of knowledge and experience of master reference data management in general, and at Heathrow Airport in particular, having been closely involved in many Airport capital projects. Rockport has been, and continues to be, substantially involved in the assurance of messaging and message content for all provider systems for ADRMIS, including bag, flight, equipment and facility messages.
+description: Rockport has been central in the design, development and implementation of the Heathrow Airport Data Repository (ADR), compliant with the Heathrow Common Information Model (CIM) and the Heathrow Integrated Baggage message services. Rockport has substantial depth of knowledge and experience of the Baggage Operations and Airport Operations.
 
 
 ---

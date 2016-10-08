@@ -10,6 +10,6 @@ alt: image-alt
 project-date: April 2014
 client: Start Bootstrap
 category: Aviation Industry Standards Development
-description: Rockport is actively involved with the Airports Council International (ACI) and IATA in a number of projects, including the ACI Semantic Model, API Shop, Baggage Broker and Seamless Travel initiatives. This includes the detailed specification of use cases, APIs and information exchange standards. Rockport personnel are regular presenters and contributors to the ACI conferences, and the project workshops.
+description: Rockport is actively involved with the Airports Council International (ACI) in a number of projects, including the Aviation Community Recommended Information Services (ACRIS), the ACI Semantic Model, API Shop, Baggage Broker and Seamless Travel initiatives. This includes the detailed specification of information exchange standards. Rockport personnel are regular presenters, contributors and facilitators at ACI conferences and project workshops.
 
 ---
