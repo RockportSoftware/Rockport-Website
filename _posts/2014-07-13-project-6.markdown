@@ -1,11 +1,11 @@
 ---
-title: Round Icons
+title: targIT
 subtitle: Graphic Design
 layout: default
 modal-id: 6
 date: 2014-07-15
-img: roundicons.png
-thumbnail: roundicons-thumbnail.png
+img: targit.png
+thumbnail: targit-thumbnail.png
 alt: image-alt
 project-date: April 2014
 client: Start Bootstrap
