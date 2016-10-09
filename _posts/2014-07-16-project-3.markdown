@@ -1,6 +1,6 @@
 ---
 title: Investment Bank
-subtitle: Activity Based Costing
+subtitle: Enterprise Performance Management
 layout: default
 modal-id: 3
 date: 2016-10-08
@@ -9,7 +9,7 @@ thumbnail: cityFinance-thumbnail.jpg
 alt: image-alt
 project-date: April 2014
 client: Investment Bank
-category: Application Development
+category: Enterprise Performance Management
 description: Rockport designed, developed and implemented an activity based costing application for a major investment banking division, to provide visility of costs across the worlwide IT divsion. As a consequence, the bank was saved hundreds of millions of euros on their IT costs.
 
 ---
