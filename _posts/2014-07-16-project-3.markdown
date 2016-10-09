@@ -4,8 +4,8 @@ subtitle: Activity Based Costing
 layout: default
 modal-id: 3
 date: 2016-10-08
-img: city.jpg
-thumbnail:city-thumbnail.jpg
+img: cityFinance.jpg
+thumbnail:cityFinance-thumbnail.jpg
 alt: image-alt
 project-date: April 2014
 client: Investment Bank
