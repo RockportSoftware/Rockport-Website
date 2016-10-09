@@ -1,15 +1,15 @@
 ---
-title: Société Générale
+title: Investment Bank
 subtitle: Activity Based Costing
 layout: default
 modal-id: 3
 date: 2016-10-08
-img: sg.jpg
-thumbnail: sg-thumbnail.jpg
+img: city.jpg
+thumbnail:city-thumbnail.jpg
 alt: image-alt
 project-date: April 2014
-client: Société Générale Investment Bank
+client: Investment Bank
 category: Applcation Development
-description: Rockport designed, developed and implemented an activity based costing application for Société Générale's investment banking division, to h=give visility of costs across the worlwide IT divsion. As a consequence, SG was able to save hundreds of millions of euros on their IT costs.
+description: Rockport designed, developed and implemented an activity based costing application for a major investment banking division, to provide visility of costs across the worlwide IT divsion. As a consequence, the bank was saved hundreds of millions of euros on their IT costs.
 
 ---

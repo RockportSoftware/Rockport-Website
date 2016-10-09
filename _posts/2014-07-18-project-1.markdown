@@ -1,16 +1,16 @@
 ---
-title: Heathrow Airport
+title: International Airport
 subtitle: Airport Intelligence
 layout: default
 modal-id: 1
 date: 2016-10-08
-img: heathrow.png
-thumbnail: heathrow-thumbnail.png
+img: airportTerminal1.png
+thumbnail: airportTerminal1-thumbnail.png
 alt: image-alt
 project-date: 2006 to date
-client: Heathrow Airport
+client: International Airport
 category: Airport Intelligence
-description: Rockport has been central in the design, development and implementation of the Heathrow Airport Data Repository (ADR), compliant with the Heathrow Common Information Model (CIM) and the Heathrow Integrated Baggage message services. Rockport has substantial depth of knowledge and experience of the Baggage Operations and Airport Operations.
+description: Rockport has been central in the design, development and implementation of the Airport Data Repository (ADR), compliant with the airport Common Information Model (CIM) and the Integrated Baggage message services. Rockport has substantial depth of knowledge and experience of the Baggage Operations and Airport Operations.
 
 
 ---
