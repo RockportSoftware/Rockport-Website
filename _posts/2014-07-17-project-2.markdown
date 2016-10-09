@@ -4,8 +4,8 @@ subtitle: Application Support
 layout: default
 modal-id: 2
 date: 2016-10-08
-img: aircraftTrails.png
-thumbnail: aircraftTrails-thumbnail.png
+img: aircraftTrails.jpg
+thumbnail: aircraftTrails-thumbnail.jpg
 alt: image-alt
 project-date: 2012 to date
 client: Aerospace Company
