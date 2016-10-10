@@ -1,10 +1,10 @@
-url: https://y7kim.github.io
-baseurl: /agency-jekyll-theme/
+url: https://richlogan.github.io
+baseurl: /Rockport-Website/
 
 # Site settings
 title: Rockport Software
 email: info@rockportsoft.com
-description: "Google search results"
+description: "Enabling the Intelligent Enterprise"
 
 
 # # Team names, titles and social links
@@ -46,19 +46,24 @@ description: "Google search results"
 social:
   - title: twitter
     url: http://twitter.com/jekyllrb
-  - title: facebook
-    url:
-  - title: stack-overflow
-    url: http://stackoverflow.com/questions/tagged/jekyll
-  - title: bitbucket
-    url: http://bitbucket.org/jekyll
-  - title: github
-    url: http://github.com/jekyll
+  #- title: facebook
+  #  url:
+  #- title: stack-overflow
+  #  url: http://stackoverflow.com/questions/tagged/jekyll
+  #- title: bitbucket
+  #  url: http://bitbucket.org/jekyll
+  #- title: github
+  #  url: http://github.com/jekyll
 
 # Postal address (add as many lines as necessary)
 address:
-  - line: 3481 Melrose Place
-  - line: Beverly Hills, CA 90210
+  - line: 126 Fairlie Road
+  - line: Slough
+  - line: Berkshire
+  - line: SL1 4PY
+  - line: UK
+  - line: 
+  - line: tel +44 (0) 1753 577201
 
 # Build settings
 markdown: kramdown
