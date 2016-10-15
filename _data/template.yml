@@ -5,6 +5,7 @@ color:
   secondary-dark: 333
   muted: 777
   tertiary: 4C6C8E
+  quad: D6DDE4
 
 # Font Families
 font:
