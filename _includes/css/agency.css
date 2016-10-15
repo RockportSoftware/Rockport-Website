@@ -341,7 +341,8 @@ section h3.section-subheading {
 
 @media(min-width:768px) {
     section {
-        padding: 20px 0;
+        /*Reduce top margin*/
+        padding: 30px 0;
     }
 }
 
