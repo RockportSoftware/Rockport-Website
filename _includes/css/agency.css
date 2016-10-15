@@ -380,7 +380,8 @@ section h3.section-subheading {
     -moz-transition: all ease .5s;
     transition: all ease .5s;
     /*background: rgba(254,209,54,.9); /* Fallback when no plugin support */
-    background: rgba(76,108,142,.9);
+    /*background: rgba(76,108,142,.9);  i.e. #4C6C8E */
+    background: rgba(214,221,228,.9); /* i.e. #D6DDE4 */
     /*background: rgba({{ site.data.template.color.primary | hex_to_rgb | join: ',' }}, .9);*/
 }
 
