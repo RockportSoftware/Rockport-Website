@@ -4,6 +4,7 @@ color:
   secondary: FFA200   
   secondary-dark: 333
   muted: 777
+  tertiary: 4C6C8E
 
 # Font Families
 font:
