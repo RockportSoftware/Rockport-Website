@@ -1,6 +1,6 @@
 ---
 title: Investment Bank
-subtitle: Enterprise Performance Management
+subtitle: Performance Management
 layout: default
 modal-id: 3
 date: 2016-10-08
