@@ -21,6 +21,15 @@ body {
 .text-tertiary {
     color: #{{ site.data.template.color.tertiary }};
 }
+
+.address {
+    font-size: 14px;
+    line-height: 1.75;
+    text-align: left;
+    color: #000000;
+}
+
+
 p {
     font-size: 14px;
     line-height: 1.75;
