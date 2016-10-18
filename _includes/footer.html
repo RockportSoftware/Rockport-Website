@@ -2,11 +2,11 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-2">
-                    <ul class="address" >
+                    <div class="address" >
                         {% for address in site.address %}
-                        <li>{{ address.line }}</li>
+                        {{ address.line }}<br/>
                         {% endfor %}
-                    </ul>
+                    </div>
                 </div>
 
                 <div class="col-md-2">
