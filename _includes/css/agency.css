@@ -191,7 +191,9 @@ fieldset[disabled] .btn-xl.active {
 .navbar-default .navbar-brand:focus,
 .navbar-default .navbar-brand:active,
 .navbar-default .navbar-brand.active {
-    color: #{{ site.data.template.color.tertiary }};
+    /* Don't chnage colour*/
+    /*color: #{{ site.data.template.color.tertiary }};*/
+    color: #{{ site.data.template.color.quad }};
 }
 
 .navbar-default .navbar-collapse {
@@ -241,7 +243,7 @@ fieldset[disabled] .btn-xl.active {
 
 @media(min-width:768px) {
     .navbar-default {
-        /* Try to fix the navbar depth */
+        /* Fix the navbar depth */
         padding: 10px 0;
         border: 0;
         background-color: transparent;
