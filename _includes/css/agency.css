@@ -241,7 +241,8 @@ fieldset[disabled] .btn-xl.active {
 
 @media(min-width:768px) {
     .navbar-default {
-        padding: 25px 0;
+        /* Try to fix the navbar depth */
+        padding: 5px 0;
         border: 0;
         background-color: transparent;
         -webkit-transition: padding .3s;
