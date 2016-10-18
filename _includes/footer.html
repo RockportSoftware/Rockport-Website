@@ -1,10 +1,17 @@
   <footer>
         <div class="container">
             <div class="row">
-                <div class="col-md-3">
+                <div class="col-md-2">
+                    <span class="address" style="font-size:10px;color: #000000;">
+                    {% for address in site.address %}
+                    {{ address.line }}</span>
+                    {% endfor %}
+                </div>
+
+                <div class="col-md-2">
                     <span class="copyright" style="font-size:10px;color: #000000;">Copyright &copy; {{ site.title }} {{ 'now' | date: "%Y" }}</span>
                 </div>
-                <div class="col-md-3">
+                <div class="col-md-2">
                     <ul class="list-inline social-buttons">
                         {% for network in site.social %}
                         <li><a href="{{ network.url }}"><i class="fa fa-{{ network.title }}"></i></a>
@@ -12,11 +19,11 @@
                         {% endfor %}
                     </ul>
                 </div>
-                <div class="col-md-3">
+                <div class="col-md-2">
                    <a class="iconLink" href="mailto:info@rockportsoft.com">
                     <i class="fa fa-envelope" style="padding: 5px;color: #000000"></i>Mail To</a>
                 </div>
-                <div class="col-md-3">
+                <div class="col-md-2">
                     <ul class="list-inline quicklinks" style="color:#000000">
                         <li><a href="privacy.html">Privacy Policy</a>
                         </li>
