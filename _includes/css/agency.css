@@ -270,7 +270,9 @@ fieldset[disabled] .btn-xl.active {
     }
 
     .navbar-default.navbar-shrink .navbar-brand {
-        font-size: 1.5em;
+        /*Keep original size*/
+        /*font-size: 1.5em;*/
+        font-size: 2em;
     }
 }
 
