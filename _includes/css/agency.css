@@ -93,11 +93,11 @@ h6 {
 /* Add small button for provacy policy*/
 .btn-privacy {
     border-color: #{{ site.data.template.color.primary }};
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
     font-family: {{ site.data.template.font.primary }};
-    font-weight: 100;
-    color: #fff;
-    background-color: #{{ site.data.template.color.primary }};
+    font-weight: 50;
+    color: #000;
+    background-color: #{{ site.data.template.color.secondary }};
 }
 
 .btn-primary:hover,
