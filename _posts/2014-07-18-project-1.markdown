@@ -10,7 +10,7 @@ alt: image-alt
 project-date: 2006 to date
 client: International Airport
 category: Airport Intelligence
-description: Rockport has been central in the design, development and implementation of the Airport Data Repository, compliant with the airport Common Information Model (CIM) and the Integrated Baggage message services. Rockport has substantial depth of knowledge and experience of the Baggage Operations and Airport Operations.
+description: Rockport has developed and delivered a real time data warehouse for a major international airport to provide an integrated view of airport operations. The Data Warehouse information model complies with the airport's Common Information Model and the Integrated Baggage message services. Rockport has substantial depth of knowledge and experience of the Baggage Operations and Airport Operations.
 
 
 ---

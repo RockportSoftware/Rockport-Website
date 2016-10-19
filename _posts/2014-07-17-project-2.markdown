@@ -10,6 +10,6 @@ alt: image-alt
 project-date: 2012 to date
 client: Aerospace Company
 category: Application Development and Support
-description: Rockport has designed, developed, implemented and provide support for a project costing and revenue allocation model for aircraft simulators.
+description: Rockport provides expert support services for a project costing and revenue allocation model for aircraft simulators at a major international aerospace company.
 
 ---
