@@ -357,7 +357,7 @@ section h3.section-subheading {
     text-transform: none;
     /*font-family: {{ site.data.template.font.secondary }};*/
     font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-size: 16px;
+    font-size: 20px;
     /*font-style: italic; */
     font-weight: 400;
 }
