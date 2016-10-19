@@ -90,14 +90,17 @@ h6 {
     background-color: #{{ site.data.template.color.primary }};
 }
 
-/* Add small button for provacy policy*/
+/* Add small button for privacy policy*/
 .btn-privacy {
     border-color: #{{ site.data.template.color.primary }};
     /* text-transform: uppercase; */
     font-family: {{ site.data.template.font.primary }};
     font-weight: 50;
     color: #000;
-    background-color: #{{ site.data.template.color.secondary }};
+    background-color: Transparent;
+    border: none;
+    overflow: hidden;
+    outline:none;
 }
 
 .btn-primary:hover,
