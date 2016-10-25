@@ -1,17 +1,18 @@
   <footer id="footer">
         <div class="container">
             <div class="row">
-                <div class="col-md-3">
+                <!--   <div class="col-md-3">
                     <div class="address" >
                         {% for address in site.address %}
                         {{ address.line }}<br/>
                         {% endfor %}
                     </div>
                 </div>
-                <div class="col-md-3">
+                -->
+                <div class="col-md-4">
                     <span class="copyright" style="font-size:14px;color: #000000;"> &copy; {{ site.title }} {{ 'now' | date: "%Y" }}</span>
                 </div>
-                <div class="col-md-3">
+                <div class="col-md-4">
                     <ul class="list-inline social-buttons">
                         {% for network in site.social %}
                         <li><a href="{{ network.url }}"><i class="fa fa-{{ network.title }}"></i></a>
@@ -23,7 +24,7 @@
                         {% endif %}
                     </ul>
                 </div>
-                <div class="col-md-3">
+                <div class="col-md-4">
                     <!--<ul class="list-inline quicklinks" style="color:#FFFFFF">
                         <li><a href="#privacyModal">Privacy Policy</a>
                         </li>
@@ -36,7 +37,23 @@
                 
                 </div>-->
             </div>
-        </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="address" >
+                        {% for address in site.address %}
+                        {{ address.line }}
+                        {% endfor %}
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="address" >
+                        {% for telephone in site.telephone %}
+                        {{ telephone.line }}
+                        {% endfor %}
+                    </div>
+                </div>
+                
+            </div>
 
 <!-- Trigger the modal with a button -->
 

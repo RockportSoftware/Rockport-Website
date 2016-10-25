@@ -16,13 +16,17 @@ social:
 
 # Postal address 
 address:
-  - line: 126 Fairlie Road
-  - line: Slough
-  - line: Berkshire
-  - line: SL1 4PY
+  - line: 126 Fairlie Road, 
+  - line: Slough, 
+  - line: Berkshire, 
+  - line: SL1 4PY, 
   - line: UK
-  - line: tel +44 (0) 1753 577201
+#  - line: tel +44 (0) 1753 577201
 
+# Postal address 
+telephone:
+  - line: tel +44 (0) 1753 577201
+  
 # Build settings
 markdown: kramdown
 permalink: pretty
