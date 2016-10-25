@@ -29,6 +29,14 @@ body {
     color: #000000;
 }
 
+/* Add small button for privacy policy*/
+.email {
+    font-size: 14px;
+    line-height: 1.75;
+    text-align: left;
+    color: #000000;
+}
+
 
 p {
     font-size: 14px;
