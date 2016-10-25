@@ -13,7 +13,8 @@ social:
     url: http://twitter.com/rockportsoft
   - title: linkedin
     url: https://www.linkedin.com/company/rockport-software
-
+  - title: email
+    url: info@rockportsoft.com
 
 # Postal address 
 address:
