@@ -25,11 +25,12 @@ body {
 .address {
     font-size: 14px;
     line-height: 1.75;
-    text-align: left;
+/* RT 25/10/2016 was text-align: left;*/
+    text-align: center;
     color: #000000;
 }
 
-/* Add small button for privacy policy*/
+/* RT 25/10/2016 Add */
 .email {
     font-size: 14px;
     line-height: 1.75;
