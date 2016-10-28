@@ -6,7 +6,7 @@ modal-id: 1
 date: 2016-10-08
 img: airportTerminal1.jpg
 thumbnail: airportTerminal1-thumbnail.jpg
-alt: image-alt
+alt: airportTerminal1
 project-date: 2006 to date
 client: International Airport
 category: Airport Intelligence

@@ -1,14 +1,6 @@
   <footer id="footer">
         <div class="container">
             <div class="row">
-                <!--   <div class="col-md-3">
-                    <div class="address" >
-                        {% for address in site.address %}
-                        {{ address.line }}<br/>
-                        {% endfor %}
-                    </div>
-                </div>
-                -->
                 <div class="col-md-4">
                     <span class="copyright" style="font-size:14px;color: #000000;"> &copy; {{ site.title }} {{ 'now' | date: "%Y" }}</span>
                 </div>
@@ -19,43 +11,31 @@
                         </li>
                         {% endfor %}
                         {% if site.email %}
-                        <li><a class="fa fa-envelope" href="mailto:{{ site.email }}"></i></a>
+                        <li><a href="mailto:{{ site.email }}"><i class="fa fa-envelope"></i></a>
                         </li>
                         {% endif %}
                     </ul>
                 </div>
                 <div class="col-md-4">
-                    <!--<ul class="list-inline quicklinks" style="color:#FFFFFF">
-                        <li><a href="#privacyModal">Privacy Policy</a>
-                        </li>
-                    </ul>-->
                     <button type="button" class="btn btn-privacy" data-toggle="modal" data-target="#privacyModal">Privacy Policy</button>
                 </div>
-                <!--   <div class="col-md-2">
-                <span class="email" style ="font-size:14px;color: #000000;"><a href="mailto:info@rockportsoft.com" text-decoration:none;text-underline:none;">
-                    <i class="fa fa-envelope" style="padding: 5px; color: #000000"></i> Mail To</a></span>
-                
-                </div>-->
             </div>
             <div class="row">
-                <div class="col-md-12">
                     <div class="address" >
                         {% for address in site.address %}
                         {{ address.line }}
                         {% endfor %}
                     </div>
-                </div>
+            </div>
             <div class="row">
-                <div class="col-md-12">
                     <div class="address" >
                         {% for telephone in site.telephone %}
                         {{ telephone.line }}
                         {% endfor %}
                     </div>
-                </div>
             </div>
                 
-            </div>
+
 
 <!-- Trigger the modal with a button -->
 
