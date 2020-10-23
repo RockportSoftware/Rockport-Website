@@ -1,0 +1,211 @@
+
+/* Add small button for privacy policy*/
+.btn-privacy {
+    border-color: #{{ site.data.template.color.primary }};
+    /* text-transform: uppercase; */
+    font-family: {{ site.data.template.font.primary }};
+    font-weight: 50;
+    color: #000;
+    background-color: Transparent;
+    border: none;
+    overflow: hidden;
+    outline:none;
+}
+
+/* Custom button colour*/
+.btn.btn-contact,
+.btn.btn-contact:hover,
+.btn.btn-contact:focus {
+    color: #f5f5f5;
+    background-color: #{{ site.data.template.color.tertiary }};
+    border-color: #{{ site.data.template.color.tertiary }};
+    outline: none;
+    margin: 20px auto;
+}
+
+
+/* Add small button for privacy policy*/
+.privacyModal {
+    text-align=left;
+}
+
+
+/********************************/
+/*       Announcement Card      */
+/********************************/
+.infobanner {
+  border-radius: 30px;
+  background: #{{ site.data.template.color.tertiary }};
+  color: #ffffff;
+  padding: 20px;
+}
+
+.infobanner p a {
+  color: #ffffff;
+}
+
+.infobanner p a:hover,
+.infobanner p a:focus,
+.infobanner p a:active,
+.infobanner p a.active {
+  color: #ffffff;
+}
+
+
+/********************************/
+/*       Fade carousel       */
+/********************************/
+.fade-carousel {
+    position: relative;
+    height: 100vh;
+}
+.fade-carousel .carousel-inner .item {
+    height: 100vh;
+}
+.fade-carousel .carousel-indicators > li {
+    margin: 0 2px;
+    background-color: #f39c12;
+    border-color: #f39c12;
+    opacity: .7;
+}
+.fade-carousel .carousel-indicators > li.active {
+  width: 10px;
+  height: 10px;
+  opacity: 1;
+}
+
+/********************************/
+/*          Hero Headers        */
+/********************************/
+.hero {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 3;
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 0 rgba(0,0,0,.75);
+      -webkit-transform: translate3d(-50%,-50%,0);
+         -moz-transform: translate3d(-50%,-50%,0);
+          -ms-transform: translate3d(-50%,-50%,0);
+           -o-transform: translate3d(-50%,-50%,0);
+              transform: translate3d(-50%,-50%,0);
+}
+.hero h1 {
+    font-size: 6em;    
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+}
+
+.fade-carousel .carousel-inner .item .hero {
+    opacity: 0;
+    -webkit-transition: 4s all ease-in-out .1s;
+       -moz-transition: 4s all ease-in-out .1s; 
+        -ms-transition: 4s all ease-in-out .1s; 
+         -o-transition: 4s all ease-in-out .1s; 
+            transition: 4s all ease-in-out .1s; 
+}
+.fade-carousel .carousel-inner .item.active .hero {
+    opacity: 1;
+    -webkit-transition: 4s all ease-in-out .1s;
+       -moz-transition: 4s all ease-in-out .1s; 
+        -ms-transition: 4s all ease-in-out .1s; 
+         -o-transition: 4s all ease-in-out .1s; 
+            transition: 4s all ease-in-out .1s;    
+}
+
+
+
+/********************************/
+/*       Slides backgrounds     */
+/********************************/
+.fade-carousel .slides .slide-1, 
+.fade-carousel .slides .slide-2,
+.fade-carousel .slides .slide-3,
+.fade-carousel .slides .slide-4 {
+  height: 100vh;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+.fade-carousel .slides .slide-1 {
+  /*background-image: url('/img/carousel/wait-1052487_1920.jpg'); */
+  background-image: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url('/img/carousel/wait-1052487_1920.jpg');
+
+}
+.fade-carousel .slides .slide-2 {
+  background-image: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+  url('/img/carousel/pexels-pixabay-88514.jpg');
+}
+.fade-carousel .slides .slide-3 {
+  background-image: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+  url('/img/carousel/clouds.jpg');
+}
+.fade-carousel .slides .slide-4 {
+  background-image: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+  url('/img/carousel/pexels-negative-space-6618.jpg');
+}
+
+
+
+
+/********************************/
+/*            Overlay           */
+/********************************/
+.overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    /* background-color: #080d15; */
+    background-color: #bfbfbf;
+    opacity: .5;
+}
+
+/********************************/
+/*          Custom Buttons      */
+/********************************/
+.btn.btn-lg {padding: 10px 40px;}
+.btn.btn-hero,
+.btn.btn-hero:hover,
+.btn.btn-hero:focus {
+    color: #f5f5f5;
+    background-color: #395C82;
+    border-color: #395C82;
+    outline: none;
+    margin: 20px auto;
+}
+
+
+/********************************/
+/*          Media Queries       */
+/********************************/
+@media screen and (min-width: 980px){
+    .hero { width: 980px; }    
+}
+@media screen and (max-width: 640px){
+    .hero h1 { font-size: 4em; }    
+}
+
+
+
+					
