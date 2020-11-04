@@ -9,8 +9,4 @@ Disallow: /_includes/
 Disallow: /_layouts/
 Disallow: /_plugins/
 Disallow: /_posts/
-Disallow: /acirdm/
-Disallow: /acisemantic/
-Disallow: /baggagexml/
-Disallow: /modernmessaging/
-Disallow: /projects/
+

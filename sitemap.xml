@@ -2,27 +2,32 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 	<url>
 		<loc>https://rockportsoft.com/</loc>
-		<lastmod>2020-03-20T13:51:12+00:00</lastmod>
+		<lastmod>2020-10-20T13:51:12+00:00</lastmod>
 		<priority>1.00</priority>
 	</url>
 	<url>
 		<loc>https://rockportsoft.com/index.html</loc>
-		<lastmod>2020-03-20T13:51:12+00:00</lastmod>
+		<lastmod>2020-10-20T13:51:12+00:00</lastmod>
 		<priority>0.80</priority>
 	</url>
 	<url>
 		<loc>https://rockportsoft.com/projects/index.html</loc>
-		<lastmod>2020-03-20T13:51:12+00:00</lastmod>
+		<lastmod>2020-10-20T13:51:12+00:00</lastmod>
 		<priority>0.80</priority>
 	</url>
 	<url>
 		<loc>https://rockportsoft.com/acisemantic/index.html</loc>
-		<lastmod>2020-03-20T13:51:12+00:00</lastmod>
+		<lastmod>2020-10-20T13:52:12+00:00</lastmod>
 		<priority>0.80</priority>
 	</url>
 	<url>
 		<loc>https://rockportsoft.com/acirdm/index.html</loc>
-		<lastmod>2020-03-20T13:51:12+00:00</lastmod>
+		<lastmod>2020-10-20T13:52:12+00:00</lastmod>
+		<priority>0.80</priority>
+	</url>
+	<url>
+		<loc>https://rockportsoft.com/modernmessaging/index.html</loc>
+		<lastmod>2020-10-20T13:52:12+00:00</lastmod>
 		<priority>0.80</priority>
 	</url>
 </urlset>
