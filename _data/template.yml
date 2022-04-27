@@ -1,11 +1,11 @@
 # Color settings (hex-codes without the leading hash-tag)
 color:
-  primary: 395C82
-  secondary: 4C6C8E
-  secondary-dark: 333
-  muted: 777
-  tertiary: 6a8baf
-  quad: D6DDE4
+  primary: 395C82     # Dark Blue         (Nav bar, font icons)
+  secondary: 4C6C8E   # Lighter Dark Blue
+  secondary-dark: 333 # Black
+  muted: 777          # Dark Grey
+  tertiary: 6A8BAF    # Pale Mid Blue   (info banners)
+  quad: D6DDE4        # Light Grey      (quote banners, navbar focus on links)
 
 # Font Families
 font:

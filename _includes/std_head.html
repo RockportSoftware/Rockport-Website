@@ -2,20 +2,24 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
-    <meta name="viewport" content="width=device-width">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
     <meta name="description" content="{{ site.description }}">
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
 
-    <!-- Custom CSS & Bootstrap Core CSS - Uses Bootswatch Flatly Theme: https://bootswatch.com/flatly/ -->
-    <link rel="stylesheet" href="{{ "/css/rockport_style.css" | prepend: site.baseurl }}">
+    <!-- Custom CSS including Bootstrap Core CSS -->
+    <link rel="stylesheet" href="{{ "/assets/css/rockport_style.css" | prepend: site.baseurl }}">
 
     <!-- Custom Fonts -->
-    <link rel="stylesheet" href="{{ "/css/font-awesome/css/font-awesome.min.css" | prepend: site.baseurl }}">
-    <!--   <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">                        -->
-    <!--   <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>                            -->
-    <!--   <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">          -->
+	<!-- <script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossorigin="anonymous"></script>  -->
+    <!-- <link rel="stylesheet" href="{{ "/assets/css/font-awesome/css/font-awesome.min.css" | prepend: site.baseurl }}">   -->
+    <link rel="stylesheet" href="{{ "/assets/css/font-awesome/css/fontawesome.css" | prepend: site.baseurl }}">
+    <link rel="stylesheet" href="{{ "/assets/css/font-awesome/css/brands.css" | prepend: site.baseurl }}">
+    <link rel="stylesheet" href="{{ "/assets/css/font-awesome/css/solid.css" | prepend: site.baseurl }}">
+
+    <!-- Google fonts-->
+    <!-- <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />  -->
+    <!-- <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css" />  -->
     <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
-    <!--   <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>               -->
 
     <!-- Rockport Specific  -->
     <meta name="robots" content="index,follow">
@@ -23,17 +27,26 @@
     <meta name="keywords" content="Business Intelligence, Analytics, Big Data, Information Modelling, Budgeting, Forecasting, Planning, Consolidation, Reporting, 
                                    Database, OLAP, OBIEE, Oracle, Data Warehousing, Hadoop, Cloud, Baggage, MQTT, Broker, RP1745, RP1755, Baggage XML,  
                                    IATA, ACI, AIDM, Aviation, Industry, Data Model, ACRIS, Airports, API, Travel, Semantic Modelling, XML, JSON,
-								   Fly2Plan, UTM, UAM, Unmanned, Future Flight, Blockchain, DLT">
+								   Fly2Plan, UTM, UAM, Drones, Unmanned, Future Flight, Blockchain, DLT">
 
     <!-- Rockport Favicon -->
-    <link rel="icon" href="/favicon.ico" type="image/x-icon">
-    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon"> 
-    <link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png" /> 
-    <link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png" />
+    <link rel="icon" type="image/x-icon" href="/assets/favicon.ico" />
+    <link rel="shortcut icon" type="image/x-icon" href="/assets/favicon.ico" > 
+    <link rel="apple-touch-icon" sizes="120x120" href="/assets/apple-icon-120x120.png" /> 
+    <link rel="apple-touch-icon" sizes="152x152" href="/assets/apple-icon-152x152.png" />
 
-    <!-- Rockport Google Webmaster Tools -->
+    <!-- Rockport Google Webmaster Tools --> 
     <meta name="verify-v1" content="R0Kc3XfdUDy1jxrSF1SYZj0nTBcdkvB28qWgxI5yQFY="> 
     <meta name="google-site-verification" content="9V9ofD_DUkP_FbczGbkgpE9g1Z7myxF_r1jmbsSzgqA" />
+ 
+	<!-- 2022 Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-8XFFYQRQDJ"></script>
+	<script>
+	  window.dataLayer = window.dataLayer || [];
+	  function gtag(){dataLayer.push(arguments);}
+	  gtag('js', new Date());
 
+	  gtag('config', 'G-8XFFYQRQDJ');
+	</script>
 
 </head>
