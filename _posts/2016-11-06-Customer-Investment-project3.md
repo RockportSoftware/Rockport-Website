@@ -4,8 +4,8 @@ subtitle: Performance Management
 layout: default
 modal-id: 3
 date: 2016-10-08
-img: cityFinance.jpg
-thumbnail: cityFinance-thumbnail.jpg
+img: cityFinance.avif
+thumbnail: cityFinance-thumbnail.avif
 alt: cityFinance
 project-date: April 2014
 client: Global Investment Bank

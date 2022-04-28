@@ -4,8 +4,8 @@ subtitle: Airport Intelligence
 layout: default
 modal-id: 2
 date: 2016-10-08
-img: airportTerminal1.jpg
-thumbnail: airportTerminal1-thumbnail.jpg
+img: airportTerminal1.avif
+thumbnail: airportTerminal1-thumbnail.avif
 alt: airportTerminal1
 project-date: 2006 to date
 client: International Airport

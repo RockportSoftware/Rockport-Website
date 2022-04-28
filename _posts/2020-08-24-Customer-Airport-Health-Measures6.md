@@ -4,8 +4,8 @@ subtitle: ACI Health Measures Portal
 layout: default
 modal-id: 6
 date: 2020-08-24
-img: passengerQueue.jpg
-thumbnail: passengerQueue-thumbnail.jpg
+img: passengerQueue.avif
+thumbnail: passengerQueue-thumbnail.avif
 alt: passengerQueue
 project-date: 2020 to date
 client: ACI World
