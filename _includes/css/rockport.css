@@ -123,7 +123,7 @@ header {
       rgba(0, 0, 0, 0.5)
     ),
     /*url('/assets/images/carousel/wait-1052487_1920.jpg'); */
-    url('/assets/images/carousel/wait-1052487_1920.webp');
+    url('/assets/images/carousel/wait-1052487_1920.jpg');
 }
 
 .carousel-fade .slides .slide-2 {
@@ -132,7 +132,7 @@ header {
       rgba(0, 0, 0, 0.5),
       rgba(0, 0, 0, 0.5)
     ),
-  url('/assets/images/carousel/towers-88514.webp');
+  url('/assets/images/carousel/towers-88514.jpg');
 }
 .carousel-fade .slides .slide-3 {
   background-image: 
@@ -140,7 +140,7 @@ header {
       rgba(0, 0, 0, 0.5),
       rgba(0, 0, 0, 0.5)
     ),
-  url('/assets/images/carousel/clouds.webp');
+  url('/assets/images/carousel/clouds.jpg');
 }
 .carousel-fade .slides .slide-4 {
   background-image: 
@@ -148,7 +148,7 @@ header {
       rgba(0, 0, 0, 0.5),
       rgba(0, 0, 0, 0.5)
     ),
-  url('/assets/images/carousel/negative-space-6618.webp');
+  url('/assets/images/carousel/negative-space-6618.jpg');
 }
 
 /*
