@@ -4,8 +4,8 @@ subtitle: Rockport Message Broker Software
 layout: default
 modal-id: 5
 date: 2020-03-23
-img: dataConnections.avif
-thumbnail: dataConnections-thumbnail.avif
+img: dataConnections.jpg
+thumbnail: dataConnections-thumbnail.jpg
 alt: dataConnections
 project-date: 2018 to date
 client: International Aviation organisation.

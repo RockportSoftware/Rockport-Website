@@ -4,8 +4,8 @@ subtitle: Semantic Model Hosting Service
 layout: default
 modal-id: 4
 date: 2020-03-22
-img: aircraftSunset.avif
-thumbnail: aircraftSunset-thumbnail.avif
+img: aircraftSunset.jpg
+thumbnail: aircraftSunset-thumbnail.jpg
 alt: aircraftSunset
 project-date: 2015 to date
 client: ACI World and the ACRIS community
