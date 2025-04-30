@@ -15,12 +15,12 @@ social:
     url: https://www.linkedin.com/company/rockport-software
 
 # Postal address 
-#address:
-#  - line: 126 Fairlie Road, 
-#  - line: Slough, 
-#  - line: Berkshire, 
-#  - line: SL1 4PY, 
-#  - line: United Kingdom
+address:
+  - line: The Memorial Centre, 8 East Common,
+  - line: Gerrards Cross, 
+  - line: Buckinghamshire, 
+  - line: SL9 7AD, 
+  - line: United Kingdom
 #  - line: tel +44 (0) 1753 577201
 
 # Postal address 
