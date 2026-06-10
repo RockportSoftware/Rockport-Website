@@ -1,4 +1,8 @@
-﻿User-agent: * 
+﻿# Sitemap location
+Sitemap: https://rockportsoft.com/sitemap.xml
+
+# Block sensitive or redundant URL paths for all bots
+User-agent: * 
 Disallow: /assets/ 
 Disallow: /css/ 
 Disallow: /img/

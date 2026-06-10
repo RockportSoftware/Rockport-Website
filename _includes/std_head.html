@@ -7,7 +7,7 @@
 
     <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-    <meta name="description" content="{{ site.description }}">
+    <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
 
     <!-- Custom CSS including Bootstrap Core CSS -->
@@ -15,23 +15,17 @@
 
     <!-- Custom Fonts -->
 	<!-- <script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossorigin="anonymous"></script>  -->
-    <!-- <link rel="stylesheet" href="{{ "/assets/css/font-awesome/css/font-awesome.min.css" | prepend: site.baseurl }}">   -->
     <link rel="stylesheet" href="{{ "/assets/css/font-awesome/css/fontawesome.min.css" | prepend: site.baseurl }}">
     <link rel="stylesheet" href="{{ "/assets/css/font-awesome/css/brands.min.css" | prepend: site.baseurl }}">
     <link rel="stylesheet" href="{{ "/assets/css/font-awesome/css/solid.min.css" | prepend: site.baseurl }}">
-
-    <!-- Google fonts-->
-    <!-- <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />  -->
-    <!-- <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css" />  -->
-    <!-- <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'> -->
 
     <!-- Rockport Specific  -->
     <meta name="robots" content="index,follow">
     <meta name="Copyright" content="Rockport Software">
     <meta name="keywords" content="Business Intelligence, Analytics, Big Data, Information Modelling, Budgeting, Forecasting, Planning, Consolidation, Reporting, 
-                                   Database, OLAP, OBIEE, Oracle, Data Warehousing, Hadoop, Cloud, Baggage, MQTT, Broker, RP1745, RP1755, Baggage XML,  
-                                   IATA, ACI, AIDM, Aviation, Industry, Data Model, ACRIS, Airports, API, Travel, Semantic Modelling, XML, JSON,
-								   Fly2Plan, UTM, UAM, Drones, Unmanned, Future Flight, Blockchain, DLT">
+                                   Database, OLAP, Oracle, Data Warehousing, MQTT, RP1745, RP1755, Baggage XML,  
+                                   IATA, AIDM, Aviation, Data Model, ACRIS, Airports, Semantic Modelling, 
+								   Future Flight, Blockchain, Metaverse, Artificial Intelligence, Machine Learning">
 
     <!-- Rockport Favicon -->
     <link rel="icon" type="image/x-icon" href="/assets/favicon.ico" />
@@ -43,7 +37,85 @@
     <meta name="verify-v1" content="R0Kc3XfdUDy1jxrSF1SYZj0nTBcdkvB28qWgxI5yQFY="> 
     <meta name="google-site-verification" content="9V9ofD_DUkP_FbczGbkgpE9g1Z7myxF_r1jmbsSzgqA" />
  
-	<!-- 2022 Global site tag (gtag.js) - Google Analytics -->
+    <!-- structured data / schema.org markup -->
+	<script type="application/ld+json">
+	{
+	  "@context": "https://schema.org",
+	  "@type": "Organization",
+	  "name": "Rockport Software",
+	  "url": "https://rockportsoft.com",
+	  "logo": "https://rockportsoft.com/assets/images/logos/RockportSoftware_Logo_Inverted.png",
+	  "description": "Aviation software consultancy specialising in digital twins, AI/simulation, baggage messaging, semantic modelling and reference data management.",
+	  "address": {
+		"@type": "PostalAddress",
+		"streetAddress": "The Memorial Centre, 8 East Common",
+		"addressLocality": "Gerrards Cross",
+		"addressRegion": "Buckinghamshire",
+		"postalCode": "SL9 7AD",
+		"addressCountry": "GB"
+	  },
+	  "contactPoint": {
+		"@type": "ContactPoint",
+		"email": "webcontact@rockportsoft.com",
+		"contactType": "sales"
+	  },
+	  "sameAs": [
+		"https://twitter.com/rockportsoft",
+		"https://www.linkedin.com/company/rockport-software"
+	  ]
+	}
+	</script>
+ <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "serviceType": "Aviation AI and Simulation Consultancy",
+  "provider": { "@type": "Organization", "name": "Rockport Software" },
+  "description": "Event-driven simulation and AI consultancy for airports, including digital twin development, scenario simulation, and machine learning for passenger and baggage operations.",
+  "areaServed": "Worldwide",
+  "url": "https://rockportsoft.com/aipoweredairports/"
+}
+</script>
+ <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "serviceType": "Aviation Semantic Modelling Consultancy",
+  "provider": { "@type": "Organization", "name": "Rockport Software" },
+  "description": "Information Modelling for aviation stakeholders, including airports, airlines and vendors, facilitates integration and semantic interoperability between aviation systems.",
+  "areaServed": "Worldwide",
+  "url": "https://rockportsoft.com/semanticmodelling/"
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "SoftwareApplication",
+  "name": "Baggage Message Broker",
+  "applicationCategory": "BusinessApplication",
+  "operatingSystem": "Cloud, On-premise",
+  "description": "IATA RP1755 XML baggage message broker supporting RP1745, with modules for transformation, masking, archival and track and trace. Deployable as cloud service or on-premise.",
+  "provider": { "@type": "Organization", "name": "Rockport Software" },
+  "url": "https://rockportsoft.com/modernmessaging/"
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "SoftwareApplication",
+  "name": "Aviation Reference Data Service",
+  "applicationCategory": "BusinessApplication",
+  "description": "Aviation industry reference data repository compliant with the Airport Common Information Model. Includes airport codes, airline codes, aircraft types and flight codes, accessible via API.",
+  "provider": { "@type": "Organization", "name": "Rockport Software" },
+  "url": "https://rockportsoft.com/referencedata/"
+}
+</script>
+
+
+
+	<!-- Global site tag (gtag.js) - Google Analytics -->
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-8XFFYQRQDJ"></script>
 <script>
