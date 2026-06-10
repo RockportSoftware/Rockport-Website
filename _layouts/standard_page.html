@@ -4,7 +4,8 @@
   {% include std_head.html %}
 
     <body id="page-top" class="index">
-
+    <a class="skip-nav" href="#main-content">Skip to main content</a>
+	
     {% include nav_bar.html %}
     <!-- Header -->
     <header>
@@ -14,7 +15,10 @@
       </div>
     </header>
 
-    {{content}}
+	<div id="main-content">
+	  {{ content }}
+	</div>
+
     {% include std_footer.html %}
     {% include std_js.html %}
 
