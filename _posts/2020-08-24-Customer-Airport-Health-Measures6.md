@@ -9,7 +9,7 @@ thumbnail: passengerQueue-thumbnail.jpg
 alt: passengerQueue
 project-date: 2020 to 2022
 client: ACI World
-service: Hosting, APIs, Information Modelling, Web Development
+service: Hosting, APIs, information modelling, web development
 category: Customer
-description: The COVID 19 pandemic has challenged the aviation industry with reduced levels of passenger air travel. Rockport contributed to an international project comprising a collaboration between organisations to develop the ACI World Airport Health Measures portal. The Portal, hosted on Rockport’s cloud platform, enables airports to maintain accurate health and safety measures and share that information with value chain partners and the general public through APIs, a web site, and mobile applications. Passengers can make informed decisions regarding air travel during the pandemic.  
+description: The COVID 19 pandemic has challenged the aviation industry with reduced levels of passenger air travel. Rockport contributed to an international project comprising a collaboration between organisations to develop the ACI World Airport Health Measures portal. The Portal, hosted on Rockport’s cloud platform, enabled airports to maintain accurate health and safety measures and share that information with value chain partners and the general public through APIs, a web site, and mobile applications. Passengers can make informed decisions regarding air travel during the pandemic.  
 ---

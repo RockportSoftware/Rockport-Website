@@ -31,10 +31,57 @@
     text-align: left;
 }
 
+/* 2026 Underline current active page on nav bar */
 .navbar-nav .nav-link.active {
     text-decoration: underline;
     font-weight: 700;
 }
+
+/* 2026 Format Breadcrumbs */
+nav[aria-label="breadcrumb"] {
+    background-color: #e9ecef;
+    margin-top: 10px; /* clear the fixed navbar */
+}
+
+nav[aria-label="breadcrumb"] .breadcrumb {
+    margin-bottom: 0;
+    padding: 0.5rem 0;
+}
+
+nav[aria-label="breadcrumb"] .breadcrumb-item a {
+    color: #395C82;
+    text-decoration: none;
+}
+
+nav[aria-label="breadcrumb"] .breadcrumb-item a:hover {
+    text-decoration: underline;
+}
+
+nav[aria-label="breadcrumb"] .breadcrumb-item.active {
+    color: #555;
+}
+
+/* 2026 Format transcript text details */
+details {
+    margin: 1rem 0;
+}
+
+details summary {
+    cursor: pointer;
+    color: #395C82;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+}
+
+details[open] > *:not(summary) {
+    background-color: #f8f9fa;
+    border-left: 3px solid #395C82;
+    padding: 1rem 1.25rem;
+    font-size: 0.85rem;
+    color: #555;
+    line-height: 1.7;
+}
+
 
 /********************************/
 /*    2026 Skip nav    */
