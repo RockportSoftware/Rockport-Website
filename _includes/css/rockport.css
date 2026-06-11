@@ -89,6 +89,21 @@ details[open] > *:not(summary) {
     margin-bottom: 0;
 }
 
+/* section-heading and section-subheading - updated for h1/h2 after accessibility heading changes */
+.page-section h1.section-heading {
+    font-size: 2.5rem;
+    margin-top: 0;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+}
+
+.page-section h2.section-subheading {
+    font-size: 1rem;
+    font-weight: 400;
+    font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+    margin-bottom: 4rem;
+}
+
 
 /********************************/
 /*    2026 Skip nav    */
