@@ -1,13 +1,13 @@
 ---
 title: Aerospace Company
-subtitle: Application Support
+subtitle: Multi-Year Application Support Services
 layout: default
 modal-id: 1
 date: 2016-10-08
 img: aircraftTrails.jpg
 thumbnail: aircraftTrails-thumbnail.jpg
 alt: aircraftTrails
-project-date: 2012 to date
+project-date: 2012 to 2022
 client: Aerospace Company
 service: Application Development and Support
 category: Customer

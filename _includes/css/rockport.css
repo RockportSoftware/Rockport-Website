@@ -19,6 +19,23 @@
   top: 0;
 }
 
+/* 2026 Reduce Width of customer portfolio modals */
+.portfolio-modal .modal-dialog {
+    text-align=left;
+    max-width: 700px;
+    width: 90%;
+    margin: 30px auto;
+}
+
+.portfolio-modal .modal-body {
+    text-align: left;
+}
+
+.navbar-nav .nav-link.active {
+    text-decoration: underline;
+    font-weight: 700;
+}
+
 /********************************/
 /*    2026 Skip nav    */
 /********************************/
@@ -299,7 +316,11 @@ header {
 /* Privacy policy model text alignment */
 .privacyModal {
     text-align=left;
+    max-width: 700px;
+    width: 90%;
+    margin: 30px auto;
 }
+
 
 /* Custom button for Projects pages. Contact button or links.*/
 .btn.btn-contact,

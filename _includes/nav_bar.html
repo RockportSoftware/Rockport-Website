@@ -13,13 +13,13 @@
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav text-uppercase ms-auto py-4 py-lg-0">
                     <li class="nav-item"><a class="nav-link" href="/index.html#services">Services</a></li>
-                    <li class="nav-item"><a class="nav-link" href="/index.html#products">Products</a></li>
-                    <li class="nav-item"><a class="nav-link" href="/projects/index.html">Projects</a></li>
-                    <li class="nav-item"><a class="nav-link" href="/aipoweredairports/index.html">AI / Simulation</a></li>
-                    <li class="nav-item"><a class="nav-link" href="/fly2plan/index.html">Flight</a></li>
-                    <li class="nav-item"><a class="nav-link" href="/modernmessaging/index.html">Baggage</a></li>
-                    <li class="nav-item"><a class="nav-link" href="/semanticmodelling/index.html">Airport Model</a></li>
-                    <li class="nav-item"><a class="nav-link" href="/referencedata/index.html">Reference Data</a></li>
+                    <!-- Remove    <li class="nav-item"><a class="nav-link" href="/index.html#products">Products</a></li>   -->
+                    <li class="nav-item"><a class="nav-link {% if page.url contains 'projects' %}active{% endif %}" href="/projects/index.html">Projects</a></li>
+                    <li class="nav-item"><a class="nav-link {% if page.url contains 'aipoweredairports' %}active{% endif %}" href="/aipoweredairports/index.html">AI / Simulation</a></li>
+                    <li class="nav-item"><a class="nav-link {% if page.url contains 'fly2plan' %}active{% endif %}" href="/fly2plan/index.html">Flight</a></li>
+                    <li class="nav-item"><a class="nav-link {% if page.url contains 'modernmessaging' %}active{% endif %}" href="/modernmessaging/index.html">Baggage</a></li>
+                    <li class="nav-item"><a class="nav-link {% if page.url contains 'semanticmodelling' %}active{% endif %}" href="/semanticmodelling/index.html">Airport Model</a></li>
+                    <li class="nav-item"><a class="nav-link {% if page.url contains 'referencedata' %}active{% endif %}" href="/referencedata/index.html">Reference Data</a></li>
                 </ul>
             </div>
             <!-- /.navbar-collapse -->

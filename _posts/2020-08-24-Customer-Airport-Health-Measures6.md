@@ -1,13 +1,13 @@
 ---
 title: International Aviation Community
-subtitle: ACI Health Measures Portal
+subtitle: Deploy ACI Health Measures Portal during COVID19 Pandemic as Trusted Source of International Travel Advice Information
 layout: default
 modal-id: 6
 date: 2020-08-24
 img: passengerQueue.jpg
 thumbnail: passengerQueue-thumbnail.jpg
 alt: passengerQueue
-project-date: 2020 to date
+project-date: 2020 to 2022
 client: ACI World
 service: Hosting, APIs, Information Modelling, Web Development
 category: Customer

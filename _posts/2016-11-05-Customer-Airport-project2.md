@@ -1,13 +1,13 @@
 ---
 title: International Airport
-subtitle: Airport Intelligence
+subtitle: Designed and implemented airport's first campus-wide baggage data warehouse 
 layout: default
 modal-id: 2
 date: 2016-10-08
 img: airportTerminal1.jpg
 thumbnail: airportTerminal1-thumbnail.jpg
 alt: airportTerminal1
-project-date: 2006 to date
+project-date: 2006 to 2026
 client: International Airport
 service: Airport Intelligence
 category: Customer

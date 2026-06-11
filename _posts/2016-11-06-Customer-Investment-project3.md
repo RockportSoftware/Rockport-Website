@@ -1,6 +1,6 @@
 ---
 title: Global Investment Bank
-subtitle: Performance Management
+subtitle: Multi-Million Euro Savings by Implementing Performance Management Application 
 layout: default
 modal-id: 3
 date: 2016-10-08

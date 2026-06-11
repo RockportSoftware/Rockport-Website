@@ -1,13 +1,13 @@
 ---
 title: International Aviation Body
-subtitle: Rockport Message Broker Software
+subtitle: Developed Baggage Message Standards and Lightweight Cloud Broker
 layout: default
 modal-id: 5
 date: 2020-03-23
 img: dataConnections.jpg
 thumbnail: dataConnections-thumbnail.jpg
 alt: dataConnections
-project-date: 2018 to date
+project-date: 2018 to 2026
 client: International Aviation organisation.
 service: Supplier of Software and Management, Hosting and Support Services
 category: Customer
