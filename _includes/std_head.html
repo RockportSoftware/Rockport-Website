@@ -3,11 +3,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta http-equiv='Content-Security-Policy' content="
 	  default-src 'self';
-	  script-src 'self' 'unsafe-inline' https://www.google-analytics.com https://www.googletagmanager.com https://region1.googletagmanager.com https://region1.googletagmanager.com;
+	  script-src 'self' 'unsafe-inline' https://www.google-analytics.com https://www.googletagmanager.com https://region1.googletagmanager.com;
 	  style-src 'self' 'unsafe-inline';
-	  img-src 'self' data: https://www.google-analytics.com https://www.googletagmanager.com https://www.googletagmanager.com https://region1.analytics.google.com https://i.ytimg.com;
+	  img-src 'self' data: https://www.google-analytics.com https://www.googletagmanager.com https://region1.analytics.google.com https://i.ytimg.com;
 	  media-src 'self';
-	  connect-src 'self' https://www.google-analytics.com https://region1.google-analytics.com https://region1.analytics.google.com https://www.googletagmanager.com;
+	  connect-src 'self' https://www.google-analytics.com https://www.google.com https://analytics.google.com https://region1.google-analytics.com https://region1.analytics.google.com https://www.googletagmanager.com;
 	  font-src 'self' data:;
 	  frame-src https://www.youtube-nocookie.com https://www.youtube.com;
 	  form-action 'none';
@@ -15,7 +15,7 @@
     <!-- Ignored in CSP when added via meta tag:   frame-ancestors 'none'; -->
 
     <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
 
@@ -38,10 +38,10 @@
 								   Future Flight, Blockchain, Metaverse, Artificial Intelligence, Machine Learning">
 
     <!-- Rockport Favicon -->
-    <link rel="icon" type="image/x-icon" href="/assets/favicon.ico" />
-    <link rel="shortcut icon" type="image/x-icon" href="/assets/favicon.ico" > 
-    <link rel="apple-touch-icon" sizes="120x120" href="/assets/apple-icon-120x120.png" /> 
-    <link rel="apple-touch-icon" sizes="152x152" href="/assets/apple-icon-152x152.png" />
+    <link rel="icon" type="image/x-icon" href="/assets/favicon.ico">
+    <link rel="shortcut icon" type="image/x-icon" href="/assets/favicon.ico"> 
+    <link rel="apple-touch-icon" sizes="120x120" href="/assets/apple-icon-120x120.png"> 
+    <link rel="apple-touch-icon" sizes="152x152" href="/assets/apple-icon-152x152.png">
 
     <!-- Rockport Google Webmaster Tools --> 
     <meta name="verify-v1" content="R0Kc3XfdUDy1jxrSF1SYZj0nTBcdkvB28qWgxI5yQFY="> 
@@ -70,7 +70,7 @@
 		"contactType": "sales"
 	  },
 	  "sameAs": [
-		"https://twitter.com/rockportsoft",
+		"https://x.com/rockportsoft",
 		"https://www.linkedin.com/company/rockport-software"
 	  ]
 	}
