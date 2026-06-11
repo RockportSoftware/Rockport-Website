@@ -82,6 +82,13 @@ details[open] > *:not(summary) {
     line-height: 1.7;
 }
 
+.hero hgroup p {
+    color: #fff;
+    font-size: 1.25rem;
+    font-weight: 300;
+    margin-bottom: 0;
+}
+
 
 /********************************/
 /*    2026 Skip nav    */
