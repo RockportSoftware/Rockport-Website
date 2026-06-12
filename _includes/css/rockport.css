@@ -115,11 +115,80 @@ details[open] > *:not(summary) {
 
 
 /********************************/
-/*    2026 Skip nav    */
+/*    2026 embed youtube     */
 /********************************/
 lite-youtube {
     margin: 0 auto;
 }
+
+/********************************/
+/*   2026 Cookie consent banner     */
+/********************************/
+/* Cookie consent banner */
+#rs-cookie-banner {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 9998;
+    background-color: #212529;
+    color: #fff;
+    padding: 1rem 0;
+    box-shadow: 0 -2px 8px rgba(0,0,0,0.3);
+}
+
+.rs-cookie-inner {
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 0 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.rs-cookie-inner p {
+    margin: 0;
+    font-size: 0.875rem;
+    line-height: 1.5;
+    flex: 1 1 auto;
+}
+
+.rs-cookie-inner a {
+    color: #D6DDE4;
+    text-decoration: underline;
+}
+
+.rs-cookie-inner a:hover {
+    color: #fff;
+}
+
+.rs-cookie-buttons {
+    display: flex;
+    gap: 0.5rem;
+    flex-shrink: 0;
+}
+
+.rs-cookie-buttons .btn-outline-secondary {
+    color: #adb5bd;
+    border-color: #adb5bd;
+}
+
+.rs-cookie-buttons .btn-outline-secondary:hover {
+    color: #fff;
+    background-color: #6c757d;
+    border-color: #6c757d;
+}
+
+@media (max-width: 576px) {
+    .rs-cookie-inner {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}
+
+
 
 /********************************/
 /*       Announcement Banner    */
