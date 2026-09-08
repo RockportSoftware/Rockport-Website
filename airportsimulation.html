@@ -1,0 +1,223 @@
+---
+layout: standard_page
+title: Rockport Software - Airport Simulation
+breadcrumb: Airport Simulation
+description: See how Rockport Software's simulation platform helps airports plan, rehearse and optimise operations before they happen
+---
+
+<!-- Airport Simulation - standalone marketing page, focused on simulation use cases, not ControlBEAM technical detail -->
+<style>
+  .simulation-hero {
+    position: relative;
+    min-height: 60vh;
+    display: flex;
+    align-items: center;
+    background:
+      linear-gradient(rgba(0,0,0,0.55), rgba(0,0,0,0.55)),
+      url('/assets/images/carousel/old_original_images/airport-4120835_1920.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    color: #fff;
+  }
+  .simulation-hero h1 {
+    color: #fff;
+  }
+  .simulation-hero h2 {
+    color: #e6e6e6;
+  }
+  .sim-card .card-img-top {
+    height: 220px;
+    object-fit: cover;
+  }
+  .sim-card .card-title {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1.15rem;
+  }
+  .sim-media {
+    position: relative;
+    height: 220px;
+    overflow: hidden;
+    cursor: pointer;
+  }
+  .sim-media video {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .sim-media .sim-play-badge {
+    position: absolute;
+    right: 12px;
+    bottom: 12px;
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    background: rgba(0, 0, 0, 0.55);
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.85rem;
+    pointer-events: none;
+    transition: opacity 0.2s ease;
+  }
+  .sim-media.is-playing .sim-play-badge {
+    opacity: 0;
+  }
+  .sim-media:focus-visible {
+    outline: 3px solid var(--bs-primary, #395C82);
+    outline-offset: 2px;
+  }
+</style>
+
+<section class="simulation-hero text-center">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-10 offset-lg-1">
+                <h1 class="section-heading">Simulate the airport, before it happens</h1>
+                <h2 class="section-subheading">Plan, rehearse and optimise airport operations with confidence, before committing real resources</h2>
+                <a href="mailto:webcontact@rockportsoft.com" target="_blank" rel="noopener noreferrer" class="btn btn-contact btn-lg" role="button">Talk to us about a pilot</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="page-section" id="simulation-usecases">
+    <div class="container">
+
+        <div class="row">
+            <div class="col-lg-10 offset-lg-1 text-center">
+                <p>Every operational change carries risk when the airport is live. Rockport's simulation platform lets you test changes, rehearse busy days, and compare options in a safe, realistic model of your airport first, so decisions are backed by evidence rather than guesswork.</p>
+            </div>
+        </div>
+
+        <div class="row mt-4 g-4">
+
+            <div class="col-md-4">
+                <div class="card h-100 sim-card">
+                    <div class="sim-media card-img-top" aria-label="Play preview: airside and terminal operations">
+                        <video muted loop playsinline preload="none" poster="/assets/images/portfolio/airportTerminal1.jpg" aria-hidden="true">
+                            <source src="/assets/videos/cdi-services-passenger-flow.webm" type="video/webm">
+                        </video>
+                        <span class="sim-play-badge"><i class="fa-solid fa-play"></i></span>
+                    </div>
+                    <div class="card-body text-left">
+                        <h3 class="card-title">Airside &amp; Terminal Operations</h3>
+                        <p class="card-text">Model stands, gates and terminal layouts before committing real resources. See how a new pier, security layout or stand allocation performs under real traffic before it is built.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card h-100 sim-card">
+                    <div class="sim-media card-img-top" aria-label="Play preview: turnaround and gate optimisation">
+                        <video muted loop playsinline preload="none" poster="/assets/images/portfolio/aircraftSunset.jpg" aria-hidden="true">
+                            <source src="/assets/videos/rockport-turnaround.webm" type="video/webm">
+                        </video>
+                        <span class="sim-play-badge"><i class="fa-solid fa-play"></i></span>
+                    </div>
+                    <div class="card-body text-left">
+                        <h3 class="card-title">Turnaround &amp; Gate Optimisation</h3>
+                        <p class="card-text">Simulate the full turnaround sequence, from arrival to pushback, to find where delays build up and how to close the gap.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card h-100 sim-card">
+                    <div class="sim-media card-img-top" aria-label="Play preview: peak day and surge rehearsal">
+                        <video muted loop playsinline preload="none" poster="/assets/images/portfolio/multimodelTransportTwin.jpg" aria-hidden="true">
+                            <source src="/assets/videos/overhead-passenger-flow.webm" type="video/webm">
+                        </video>
+                        <span class="sim-play-badge"><i class="fa-solid fa-play"></i></span>
+                    </div>
+                    <div class="card-body text-left">
+                        <h3 class="card-title">Peak Day &amp; Surge Rehearsal</h3>
+                        <p class="card-text">Rehearse your busiest day before it arrives. Model holiday peaks, large events and unplanned surges across the wider transport network.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card h-100 sim-card">
+                    <div class="sim-media card-img-top" aria-label="Play preview: passenger flow simulation">
+                        <video muted loop playsinline preload="none" poster="/assets/images/portfolio/passengerQueue.jpg" aria-hidden="true">
+                            <source src="/assets/videos/pax-flow-model.webm" type="video/webm">
+                        </video>
+                        <span class="sim-play-badge"><i class="fa-solid fa-play"></i></span>
+                    </div>
+                    <div class="card-body text-left">
+                        <h3 class="card-title">Passenger Flow &amp; Wait Times</h3>
+                        <p class="card-text">Understand how passengers actually move through check-in, security and gates, and where queues form. Our own Catalyst project demonstrated a 50% reduction in passenger wait times. Hover the image (or tap, on touch devices) to see the model in motion.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card h-100 sim-card">
+                    <div class="sim-media card-img-top" aria-label="Play preview: capital projects and infrastructure planning">
+                        <video muted loop playsinline preload="none" poster="/assets/images/portfolio/passengerJourney.jpg" aria-hidden="true">
+                            <source src="/assets/videos/sstp-scenarios-capital-projects.webm" type="video/webm">
+                        </video>
+                        <span class="sim-play-badge"><i class="fa-solid fa-play"></i></span>
+                    </div>
+                    <div class="card-body text-left">
+                        <h3 class="card-title">Capital Projects &amp; Infrastructure</h3>
+                        <p class="card-text">See the operational impact of a new pier, taxiway or terminal extension before breaking ground, and plan construction phasing around live operations.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card h-100 sim-card">
+                    <div class="sim-media card-img-top" aria-label="Play preview: safety and contingency rehearsal">
+                        <video muted loop playsinline preload="none" poster="/assets/images/portfolio/aircraftTrails.jpg" aria-hidden="true">
+                            <source src="/assets/videos/cdi-safety-and-contingency.webm" type="video/webm">
+                        </video>
+                        <span class="sim-play-badge"><i class="fa-solid fa-play"></i></span>
+                    </div>
+                    <div class="card-body text-left">
+                        <h3 class="card-title">Safety &amp; Contingency Rehearsal</h3>
+                        <p class="card-text">Rehearse irregular operations, diversions and emergency scenarios safely, without disrupting a live airport.</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- Third row: single centred card -->
+        <div class="row mt-4 g-4">
+
+            <div class="col-md-4 offset-md-4">
+                <div class="card h-100 sim-card">
+                    <div class="sim-media card-img-top" aria-label="Play preview: end to end passenger experience">
+                        <video muted loop playsinline preload="none" poster="/assets/images/portfolio/customerJourney.jpg" aria-hidden="true">
+                            <source src="/assets/videos/FPV_Passenger-full.webm" type="video/webm">
+                        </video>
+                        <span class="sim-play-badge"><i class="fa-solid fa-play"></i></span>
+                    </div>
+                    <div class="card-body text-left">
+                        <h3 class="card-title">Passenger Experience</h3>
+                        <p class="card-text">Follow a single passenger end to end, from kerb to gate, through the same model used to test flow and wait times elsewhere on this page.</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- CTA -->
+        &nbsp;
+        <div class="row mt-4">
+            <div class="col-lg-12 text-center">
+                <p>Built on <a href="/controlbeam/index.html">ControlBEAM</a>, Rockport's event-driven platform.</p>
+                <a href="mailto:webcontact@rockportsoft.com" target="_blank" rel="noopener noreferrer" class="btn btn-contact" role="button">Email Rockport</a>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<script src="/assets/js/sim-media.js"></script>
