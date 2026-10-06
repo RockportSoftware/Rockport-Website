@@ -74,6 +74,47 @@ description: See how Rockport Software's simulation platform helps airports plan
     outline: 3px solid var(--bs-primary, #395C82);
     outline-offset: 2px;
   }
+
+  .sim-watch-badge {
+    position: absolute;
+    right: 16px;
+    bottom: 16px;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4rem;
+    padding: 0.4rem 0.75rem;
+    border-radius: 999px;
+    background: rgba(0, 0, 0, 0.7);
+    color: #fff;
+    font-size: 0.8rem;
+    font-weight: 600;
+    line-height: 1;
+    pointer-events: none;
+  }
+  .sim-watch-badge .fa-youtube {
+    color: #ff4e45;
+    font-size: 1rem;
+  }
+  .sim-media.is-youtube {
+    cursor: default;
+  }
+  .sim-media.is-youtube video {
+    visibility: hidden;
+  }
+  .sim-media.is-youtube .sim-watch-badge {
+    display: none;
+  }
+  .sim-media lite-youtube {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    max-width: none;
+    margin: 0;
+  }
+  .sim-media lite-youtube::after {
+    display: none;
+  }
 </style>
 
 <section class="simulation-hero text-center">
@@ -113,16 +154,17 @@ description: See how Rockport Software's simulation platform helps airports plan
     <div class="container">
         <div class="row align-items-center gy-4 flex-lg-row-reverse">
             <div class="col-lg-6">
-                <div class="sim-media" aria-label="Play preview: turnaround and gate optimisation">
+                <div class="sim-media" data-youtube="5XfVKkh0jM8" data-youtube-label="Play: Aircraft turnaround, full video" aria-label="Play full video: turnaround and gate optimisation">
                     <video muted loop playsinline preload="none" poster="/assets/images/portfolio/aircraftSunset.jpg" aria-hidden="true">
-                        <source src="/assets/videos/rockport-turnaround.webm" type="video/webm">
+                        <source src="/assets/videos/ACDM-AircraftTurnaround-Arrival.webm" type="video/webm">
                     </video>
-                    <span class="sim-play-badge"><i class="fa-solid fa-play"></i></span>
+                    <span class="sim-watch-badge"><i class="fa-brands fa-youtube" aria-hidden="true"></i> Watch full video</span>
                 </div>
             </div>
             <div class="col-lg-6">
                 <h2 class="scroll-title">Turnaround &amp; Gate Optimisation</h2>
                 <p>Simulate the full turnaround sequence, from arrival to pushback, to find where delays build up and how to close the gap.</p>
+                <p><a href="https://www.youtube.com/watch?v=5XfVKkh0jM8" target="_blank" rel="noopener noreferrer">Watch the full video on YouTube</a></p>
             </div>
         </div>
     </div>
@@ -239,3 +281,4 @@ description: See how Rockport Software's simulation platform helps airports plan
 </section>
 
 <script src="/assets/js/sim-scroll.js"></script>
+<script src="/assets/js/sim-youtube.js"></script>

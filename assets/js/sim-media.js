@@ -9,14 +9,21 @@
     var video = wrap.querySelector('video');
     if (!video) return;
 
+    // Panels with data-youtube are handed over to sim-youtube.js on click.
+    // This script still drives their hover preview, but must stop once the
+    // YouTube player has replaced the preview.
+    var isYouTube = wrap.hasAttribute('data-youtube');
+
     function play() {
+      if (wrap.classList.contains('is-youtube')) return;
       wrap.classList.add('is-playing');
-      wrap.setAttribute('aria-pressed', 'true');
+      if (!isYouTube) wrap.setAttribute('aria-pressed', 'true');
       video.play().catch(function () { /* autoplay was blocked, poster stays visible */ });
     }
     function stop() {
+      if (wrap.classList.contains('is-youtube')) return;
       wrap.classList.remove('is-playing');
-      wrap.setAttribute('aria-pressed', 'false');
+      if (!isYouTube) wrap.setAttribute('aria-pressed', 'false');
       video.pause();
       // Resetting currentTime alone does not bring the poster back once a
       // video has rendered a frame - the browser keeps showing that frame.
@@ -29,9 +36,11 @@
       if (wrap.classList.contains('is-playing')) { stop(); } else { play(); }
     }
 
-    wrap.setAttribute('tabindex', '0');
-    wrap.setAttribute('role', 'button');
-    wrap.setAttribute('aria-pressed', 'false');
+    if (!isYouTube) {
+      wrap.setAttribute('tabindex', '0');
+      wrap.setAttribute('role', 'button');
+      wrap.setAttribute('aria-pressed', 'false');
+    }
 
     // Hover-to-play on devices that support real hover, unless the user has
     // asked for reduced motion - then playback only happens on deliberate
@@ -42,12 +51,15 @@
     }
 
     // Tap (touch devices) and keyboard always work, regardless of the above.
-    wrap.addEventListener('click', toggle);
-    wrap.addEventListener('keydown', function (e) {
-      if (e.key === 'Enter' || e.key === ' ') {
-        e.preventDefault();
-        toggle();
-      }
-    });
+    // Not for data-youtube panels, where click opens the full video instead.
+    if (!isYouTube) {
+      wrap.addEventListener('click', toggle);
+      wrap.addEventListener('keydown', function (e) {
+        if (e.key === 'Enter' || e.key === ' ') {
+          e.preventDefault();
+          toggle();
+        }
+      });
+    }
   });
 })();
